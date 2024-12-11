@@ -1,0 +1,17 @@
+Dataset Overview: 
+Since a relevant dataset for personalized wellness insights was not readily available, a custom dataset was created to simulate user data. 
+This dataset is designed to capture realistic scenarios for analysis and testing.
+
+
+Dataset Features (The dataset includes the following columns):
+User_ID: A unique identifier for each user.
+Pose_Proficiency: A score (0–100) representing the user's proficiency in performing various poses.
+Session_Duration: The total time (in minutes) the user spends per session.
+Engagement_Score: A numerical rating between 1 to 10 telling how good the user is engaged in the activity.
+Weight (kg): The user's weight in kilograms, used to calculate personalized metrics like calorie burn.
+Calorie_Burn: An estimated number of calories burned during a session, derived using weight and session duration.
+
+Dataset Creation:
+The dataset was generated programmatically using Python libraries:
+NumPy: Used to create random numerical data simulating pose proficiency scores and session durations.
+Pandas: Used for structuring and organizing the data into a tabular format with meaningful columns.
